@@ -17,21 +17,21 @@
             <RowDefinition Height="389*"/>
         </Grid.RowDefinitions>
 
-      
-       
-        
-            <Label Content="Расчет доходности вклада" HorizontalAlignment="Left" Margin="62,10,0,0" VerticalAlignment="Top" FontSize="18" Grid.RowSpan="2"/>
+
+
+
+        <Label Content="Расчет доходности вклада" HorizontalAlignment="Left" Margin="62,10,0,0" VerticalAlignment="Top" FontSize="18" Grid.RowSpan="2"/>
         <Ellipse x:Name="ellipse" Fill="#FFFF9800" HorizontalAlignment="Left" Height="16" Margin="10,94,0,0" Stroke="#FFFF9800" VerticalAlignment="Top" Width="16" Grid.Row="1" />
         <Ellipse x:Name="ellipse_Copy" Fill="#FF27AE60" HorizontalAlignment="Left" Height="16" Margin="10,133,0,0" Stroke="#FF27AE60" VerticalAlignment="Top" Width="16" Grid.Row="1" />
         <Ellipse x:Name="ellipse_Copy2" Fill="#FFE74C3C" HorizontalAlignment="Left" Height="16" Margin="10,176,0,0" Stroke="#FFE74C3C" VerticalAlignment="Top" Width="16" Grid.Row="1" />
         <Label Content="Сумма вклада" HorizontalAlignment="Left" Margin="31,86,0,0" VerticalAlignment="Top" FontSize="14" Height="36" Grid.Row="1"/>
         <Label Content="Чистый доход" HorizontalAlignment="Left" Margin="31,127,0,0" VerticalAlignment="Top" FontSize="14" Height="36" Grid.Row="1"/>
         <Label Content="Удержано налогов" HorizontalAlignment="Left" Margin="31,168,0,0" VerticalAlignment="Top" FontSize="14" Height="36" Grid.Row="1"/>
-        <TextBox x:Name="Taxes" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" Margin="241,168,0,0" TextWrapping="Wrap" Text="0 ₽" VerticalAlignment="Top" Width="82" Height="40" TextAlignment="Right" BorderBrush="{x:Null}" FontSize="16" Grid.Row="1"/>
-        <TextBox BorderThickness="0" IsReadOnly="True"  x:Name="Percent" HorizontalAlignment="Left" Margin="241,127,0,0" TextWrapping="Wrap" Text="0 ₽" VerticalAlignment="Top" Width="82" Height="40" TextAlignment="Right" BorderBrush="{x:Null}" FontSize="16" Grid.Row="1"/>
-        <TextBox x:Name="Sum" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" Margin="241,86,0,0" TextWrapping="Wrap" Text="0 ₽" VerticalAlignment="Top" Width="82" Height="40" TextAlignment="Right" BorderBrush="{x:Null}" FontSize="16" Grid.Row="1"/>
+        <TextBox x:Name="Taxes" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" Margin="209,168,0,0" TextWrapping="Wrap" Text="0 ₽" VerticalAlignment="Top" Width="103" Height="40" TextAlignment="Right" BorderBrush="{x:Null}" FontSize="16" Grid.Row="1"/>
+        <TextBox BorderThickness="0" IsReadOnly="True"  x:Name="Percent" HorizontalAlignment="Left" Margin="209,127,0,0" TextWrapping="Wrap" Text="0 ₽" VerticalAlignment="Top" Width="103" Height="40" TextAlignment="Right" BorderBrush="{x:Null}" FontSize="16" Grid.Row="1"/>
+        <TextBox x:Name="Sum" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" Margin="209,86,0,0" TextWrapping="Wrap" Text="0 ₽" VerticalAlignment="Top" Width="103" Height="40" TextAlignment="Right" BorderBrush="{x:Null}" FontSize="16" Grid.Row="1"/>
         <Label Content="В РФ доходы по ставке выше 14.5%&#xA;в рублях и выше 9% в валюте&#xA;облагаются налогом в размере 35%." Margin="10,225,3,10" HorizontalContentAlignment="Left" Grid.Row="1"/>
-        
+
 
     </Grid>
 </Window>

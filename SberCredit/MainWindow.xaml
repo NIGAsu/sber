@@ -56,7 +56,7 @@
         <Label Grid.Row="5" Content="Капитализация" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" Height="29" Width="192" Margin="116,0,0,0" />
 
 
-        <TextBox x:Name="Amount" Grid.Row="1"  Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="700 000" VerticalAlignment="Center" Width="192" Height="30"  TextAlignment="Center" FontSize="15"/>
+        <TextBox x:Name="Amount" Grid.Row="1"  Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="700000" VerticalAlignment="Center" Width="192" Height="21"  TextAlignment="Center" FontSize="15" UndoLimit="10" BorderThickness="1,1,1,1"/>
         <ComboBox x:Name="Term" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="192" Background="{x:Null}" Height="31" SelectedIndex="0" IsReadOnly="True" FontSize="16" BorderBrush="{x:Null}">
             <ListViewItem Content="1 Месяц" FontSize="16"/>
             <ListViewItem Content="3 Месяца" FontSize="16"/>

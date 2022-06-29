@@ -85,7 +85,7 @@ namespace SberCredit
             }
             catch (Exception)
             {
-                throw;
+                
             }
         }
 
